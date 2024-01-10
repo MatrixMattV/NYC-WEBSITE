@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-piccinng-3075993.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: yellow;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 20px;
+    color: yellow;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: #fff;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: yellow;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.main-content p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.main-content button {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    background: blanchedalmond;
+    color: #333;
+    padding: 12px 30px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.main-content button:hover {
+    color: blanchedalmond;
+    background: #333;
+}
